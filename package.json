@@ -1,0 +1,33 @@
+{
+  "name": "parnassus",
+  "version": "1.0.0",
+  "description": "Counterpoint Instruction",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "keywords": [
+    "music",
+    "counterpoint",
+    "fux",
+    "palestrina",
+    "composition",
+    "classical",
+    "baroque",
+    "modal"
+  ],
+  "author": "Sean Mullen <srmullen13@gmail.com> (http://seanmullen.me/)",
+  "license": "Sean Mullen",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "palestrina.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srmullen/parnassus.git"
+  }
+}
